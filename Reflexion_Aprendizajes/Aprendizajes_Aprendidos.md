@@ -1,5 +1,5 @@
 ---
-# [⬅️](../)Contenidos
+# [⬅️](../Teor-a-de-la-Distribuci-n-y-Probabilidad)Contenidos
 # 💡Aprendizajes Aprendidos
 
 ---
