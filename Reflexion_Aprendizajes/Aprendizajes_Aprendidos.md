@@ -1,4 +1,5 @@
 ---
+# [⬅️](../)Contenidos
 # 💡Aprendizajes Aprendidos
 
 ---
@@ -16,4 +17,5 @@ A su vez se estudió la importancia que tiene el nivel de confianza en la interp
 Tambien, en el tema de pruebas de hipótesis, y Big Data se entendió que las decisiones estadística se basan en la probabilidad de conseguir resultados extremos bajo la hipótesis nula, y se estudian a su vez los errores tipo I y II así como la distinción que se puede hacer entre la significación estadística y la significación práctica dado que un resultado puede ser estadísticamente significativo sin que eso se traduzca en un efecto práctico importante en un entorno práctico, cuestión que es especialmente relevante cuando se habla de trabajar con grandes volúmenes de datos.
 
 En resumen, el trabajo con los APE significó un gran avance para comprender los conceptos en los que se basa la inferencia estadística y las herramientas claramente definidas obtenidas para el análisis de los datos. El estudio del Teorema del Límite Central, la estimación por intervalos, los niveles de confianza y las pruebas de hipótesis dieron lugar a la comprensión de cómo la estadística permite elaborar maneras objetivas de conseguir de una muestra conclusiones aceptables aun cuando no se puede contar con toda la población.
+
 Es más, estos conceptos dieron pie a una mejor capacidad para interpretar los resultados, a la posibilidad de analizar la tasa de incertidumbre inherente a los análisis y a la noción de la importancia de tomar decisiones sustentadas en evidencias estadísticas. Por último, el estudio de estos aspectos concluyó en que la estadística tiene aplicaciones que no son solo académicas, sino que conforma una herramienta imprescindible en campos como la investigación, la ingeniería, la ciencia de los datos o la toma de decisiones en diferentes ámbitos profesionales donde el análisis de la información tiene que ser el correcto para conseguir conclusiones válidas y bien fundamentadas.
