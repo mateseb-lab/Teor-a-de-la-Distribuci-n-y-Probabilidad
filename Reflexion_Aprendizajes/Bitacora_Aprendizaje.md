@@ -20,7 +20,7 @@ Esta bitácora resume mi proceso de aprendizaje a lo largo de la Unidad 2, en la
 Aquí entendí por primera vez la diferencia entre trabajar con una probabilidad puntual (que siempre es cero en una variable continua) y trabajar con áreas bajo la curva. Aprendí a estandarizar mis datos regionales con puntajes Z y a interpretarlos: un Z=-2.45, por ejemplo, no es solo un número, es "qué tan lejos está este cantón del promedio, en unidades de desviación estándar".
  
 **Dificultad algorítmica superada:**
-Mi primer instinto fue asumir que la variable `% de viviendas sin alcantarillado` se comportaba de forma normal solo porque "se veía como una campana" en el histograma. La prueba de Shapiro-Wilk me demostró lo contrario (p ≈ 0.00004): el cantón Loja, al ser la capital, actúa como un valor atípico que rompe la simetría del resto de cantones. Tuve que aprender a no confiar solo en la inspección visual y a complementar siempre el gráfico Q-Q con una prueba analítica antes de sacar conclusiones.
+Lo que hice fue asumir que la variable `% de viviendas sin alcantarillado` se comportaba de forma normal solo porque "se veía como una campana" en el histograma. La prueba de Shapiro-Wilk me demostró lo contrario (p ≈ 0.00004): el cantón Loja, al ser la capital, actúa como un valor atípico que rompe la simetría del resto de cantones. Tuve que aprender a no confiar solo en la inspección visual y a complementar siempre el gráfico Q-Q con una prueba analítica antes de sacar conclusiones.
  
 **Reflexión:**
 Esta práctica me enseñó una lección que se repitió en toda la unidad: *validar los supuestos antes de aplicar cualquier fórmula*, en vez de aplicar la prueba primero y preguntar después.
@@ -29,7 +29,7 @@ Esta práctica me enseñó una lección que se repitió en toda la unidad: *vali
  
 ## 3. APE 07 — Teorema del Límite Central y Remuestreo (Bootstrapping)
 
-Aquí resolví la contradicción que dejó pendiente la APE 06: si mis datos NO son normales, ¿cómo puedo seguir haciendo inferencia sobre ellos? La respuesta fue el Teorema del Límite Central. Al generar 500 muestras bootstrap de tamaño n=40 sobre mi variable regional, comprobé con mis propios ojos que la distribución de las *medias* muestrales sí se aproxima a una normal, aunque la población original (con su fuerte asimetría) nunca lo haga.
+Aquí resolví la contradicción que dejó pendiente la APE 06: si mis datos no son normales.Utilize el Teorema del Límite Central. Al generar 500 muestras bootstrap de tamaño n=40 sobre mi variable regional, comprobé con mis propios ojos que la distribución de las *medias* muestrales sí se aproxima a una normal, aunque la población original (con su fuerte asimetría) nunca lo haga.
  
 **Dificultad algorítmica superada:**
 Al principio confundía "muestra" con "población" dentro del bucle de remuestreo, lo que me generaba una distribución muestral idéntica a la original (sin efecto de suavizado). Tuve que revisar con cuidado que cada iteración tomara una submuestra aleatoria nueva (`np.random.choice`) y calculara su propia media, en vez de reutilizar el array completo. También me costó entender por qué el error estándar disminuye con la raíz de n y no linealmente — repasar la Ley de los Grandes Números me ayudó a visualizarlo con la simulación.
@@ -73,4 +73,4 @@ Sin duda, entender que la estadística inferencial exige un orden metodológico 
  
 Repitiendo el mismo patrón de trabajo en cada práctica —hipótesis, supuestos, estadístico, valor-p, decisión— hasta que dejó de sentirse como una lista de pasos memorizada y empezó a sentirse como una forma lógica de razonar sobre datos reales.
  
-Todo lo trabajado en esta unidad se integró en el análisis final del déficit de alcantarillado en la provincia de Loja: partimos describiendo la variable (APE 06), justificamos por qué podíamos inferir sobre ella pese a su no-normalidad (APE 07), probamos una hipótesis puntual sobre la región (APE 09) y finalmente comparamos subgrupos territoriales entre sí (APE 10/11). Ver cómo cada práctica se apoyó en la anterior fue, para mí, la parte más valiosa del proceso.
+Todo lo trabajado en esta unidad se integró en el análisis final del déficit de alcantarillado en la provincia de Loja: partimos describiendo la variable (APE 06), justificamos por qué podíamos inferir sobre ella pese a su no-normalidad (APE 07), probamos una hipótesis puntual sobre la región (APE 09) y finalmente comparamos subgrupos territoriales entre sí (APE 10/11). Ver cómo cada práctica se apoyó en la anterior fue, para mí, la parte mas interesante del proceso.
