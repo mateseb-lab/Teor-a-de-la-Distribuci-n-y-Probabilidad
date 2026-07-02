@@ -1,13 +1,10 @@
 ---
 # 💡Bitacora Aprendizajes
 
- Bitácora de Aprendizaje — Unidad 2: Inferencia Estadística
-**Estudiante:** Mateo Sebastian Pucha Carrera
-**Grupo:** G — Teoría de la Distribución y Probabilidad
-**Proyecto Integrador:** Análisis regional — Provincia de Loja
-**Período cubierto:** APE 06 – APE 11
- 
----
+### Estudiante: Mateo Sebastian Pucha Carrera
+### Grupo: G — Teoría de la Distribución y Probabilidad
+### Proyecto Integrador: Análisis regional — Provincia de Loja
+### Período cubierto: APE 06 – APE 11
  
 ## 1. Introducción
  
