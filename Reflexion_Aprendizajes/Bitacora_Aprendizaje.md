@@ -45,10 +45,10 @@ Entendí que el TLC no "arregla" la falta de normalidad de los datos individuale
 Formulé por primera vez una hipótesis nula y alterna aplicada a un problema real de mi región ($H_0: \mu = 15$ vs $H_1: \mu > 15$, sobre el déficit de alcantarillado) y ejecuté una prueba T de Student de una cola. Aprendí a diferenciar cuándo usar Z (sigma poblacional conocida) frente a T (sigma desconocida, muestra pequeña) — algo que antes de esta práctica manejaba solo de memoria, sin entender el porqué.
  
 **Dificultad algorítmica superada:**
-Como Shapiro-Wilk ya me había advertido en la APE 06 que mis datos no eran normales, dudé si la prueba T seguía siendo válida. Tuve que investigar y agregar una prueba de respaldo no paramétrica (Wilcoxon) para confirmar que la conclusión no dependía de ese supuesto. Ver que ambas pruebas —paramétrica y no paramétrica— coincidían en el resultado (p prácticamente cero) me dio mucha más confianza en la robustez del hallazgo.
+Como Shapiro-Wilk ya me había advertido en la APE 06 que mis datos no eran normales, dudé si la prueba T seguía siendo válida. Tuve que investigar y agregar una prueba de respaldo no paramétrica (Wilcoxon) para confirmar que la conclusión no dependía de ese supuesto. Ver que ambas pruebas —paramétrica y no paramétrica— coincidían en el resultado (p prácticamente cero) me dio mucha más confianza.
  
 **Reflexión:**
-Comprendí que el valor-p no es "la probabilidad de que mi hipótesis sea cierta", sino la probabilidad de observar un resultado tan extremo como el mío si la hipótesis nula fuera verdadera. Esa distinción, aunque parece sutil, cambió completamente cómo redacto mis conclusiones.
+Comprendí que el valor-p no es "la probabilidad de que mi hipótesis sea cierta", sino la probabilidad de observar un resultado tan extremo como el mío si la hipótesis nula fuera verdadera. Esa distinción cambio mucho las conclusiones
  
 ---
  
