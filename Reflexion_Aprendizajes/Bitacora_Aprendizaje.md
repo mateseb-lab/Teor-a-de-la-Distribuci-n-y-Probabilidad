@@ -1,3 +1,4 @@
+# [⬅️](../Reflexion_Aprendizajes)Contenidos de unidad 2
 ---
 # 💡Bitacora Aprendizajes
 
@@ -5,7 +6,9 @@
 ### Grupo: G — Teoría de la Distribución y Probabilidad
 ### Proyecto Integrador: Análisis regional — Provincia de Loja
 ### Período cubierto: APE 06 – APE 11
- 
+
+---
+
 ## 1. Introducción
  
 Esta bitácora resume mi proceso de aprendizaje a lo largo de la Unidad 2, en la que pasamos de describir el comportamiento probabilístico de una sola variable (distribución Normal) hasta comparar formalmente grupos completos dentro del dataset regional de Loja (ANOVA y Tukey). La documento en orden cronológico, práctica por práctica, señalando qué entendí, dónde me trabé y cómo lo resolví.
