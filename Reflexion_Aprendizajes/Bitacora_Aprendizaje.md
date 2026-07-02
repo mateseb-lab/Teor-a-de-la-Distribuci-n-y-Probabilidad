@@ -29,7 +29,7 @@ Esta práctica me enseñó una lección que se repitió en toda la unidad: *vali
  
 ## 3. APE 07 — Teorema del Límite Central y Remuestreo (Bootstrapping)
 
-Aquí resolví la contradicción que dejó pendiente la APE 06: si mis datos no son normales.Utilize el Teorema del Límite Central. Al generar 500 muestras bootstrap de tamaño n=40 sobre mi variable regional, comprobé con mis propios ojos que la distribución de las *medias* muestrales sí se aproxima a una normal, aunque la población original (con su fuerte asimetría) nunca lo haga.
+Aquí resolví la contradicción que dejó pendiente la APE 06: si mis datos no son normales.Utilize el Teorema del Límite Central. Al generar 500 muestras bootstrap de tamaño n=40 sobre mi variable regional, comprobé  las *medias* muestrales sí se aproxima a una normal, aunque la población original (con su fuerte asimetría) nunca lo haga.
  
 **Dificultad algorítmica superada:**
 Al principio confundía "muestra" con "población" dentro del bucle de remuestreo, lo que me generaba una distribución muestral idéntica a la original (sin efecto de suavizado). Tuve que revisar con cuidado que cada iteración tomara una submuestra aleatoria nueva (`np.random.choice`) y calculara su propia media, en vez de reutilizar el array completo. También me costó entender por qué el error estándar disminuye con la raíz de n y no linealmente — repasar la Ley de los Grandes Números me ayudó a visualizarlo con la simulación.
