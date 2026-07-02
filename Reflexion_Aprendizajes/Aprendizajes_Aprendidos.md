@@ -1,5 +1,5 @@
 ---
-# [⬅️](../Reflexion_Aprendizajes../)Contenidos
+# [⬅️](../Reflexion_Aprendizajes)Contenidos
 # 💡Aprendizajes Aprendidos
 
 ---
