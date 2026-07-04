@@ -9,7 +9,7 @@
 ### 2️⃣ 🧠Evaluacion Sumativa:  [-👉Acceder-](/Archivos_EvaluacionSumativa)
 
 ---
-### 3️⃣ ⚙️Bitacora Aprendizajes  [-👉Acceder-](/Reflexion_Aprendizajes)
+### 3️⃣ ⚙️Bitacora Aprendizajes  [-👉Acceder-](/Reflexion_Aprendizajes/Bitacora_Aprendizaje.md)
 
 ---
 ### 4️⃣ ⚙️Video Evaluacion Sumativa  [-👉Acceder-](/Video_Evaluacion/LinkVideo.md)
