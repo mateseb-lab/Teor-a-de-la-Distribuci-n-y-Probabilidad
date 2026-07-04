@@ -1,4 +1,4 @@
-💻 Teoría de la Distribucion y Probabilidad
+💻 Teoría de la Distribución y Probabilidad
 ## 📘 Portafolio Digital de Aprendizaje.
 ### Nombre: Mateo Sebastian Pucha Carrera
 ### Grupo: G
