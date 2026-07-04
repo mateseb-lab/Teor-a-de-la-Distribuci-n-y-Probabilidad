@@ -1,4 +1,4 @@
-# [⬅️](../Reflexion_Aprendizajes/README.md)Regresar 
+# [⬅️](../Reflexion_Aprendizajes../Teor-a-de-la-Distribuci-n-y-Probabilidad/README.md)Regresar 
 ---
 # 💡Bitacora Aprendizajes
 
