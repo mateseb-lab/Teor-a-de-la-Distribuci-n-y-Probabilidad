@@ -1,4 +1,4 @@
-# [⬅️](../Reflexion_Aprendizajes../README.md)Regresar 
+# [⬅️](../Reflexion_Aprendizajes/README.md)Regresar 
 ---
 # 💡Bitacora Aprendizajes
 
